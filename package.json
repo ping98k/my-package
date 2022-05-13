@@ -1,0 +1,27 @@
+{
+  "name": "my-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/src/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf ./lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ping98k/my-package.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ping98k/my-package/issues"
+  },
+  "homepage": "https://github.com/ping98k/my-package#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
