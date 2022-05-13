@@ -1,5 +1,5 @@
 import './App.css';
-
+import {hello} from 'my-package'
 function App() {
   return (
     <div className="App">
