@@ -1,12 +1,10 @@
-import './App.css';
-import {hello} from 'my-package'
+import "./App.css";
+import { hello } from "my-package";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          hello
-        </p>
+        <p>{hello("world")}</p>
       </header>
     </div>
   );
